@@ -39,7 +39,14 @@ PRODUCT_GMS_CLIENTID_BASE := android-infinix
 TARGET_VENDOR := infinix
 TARGET_VENDOR_PRODUCT_NAME := X657C
 
+# Official tag
+NAD_BUILD_TYPE := UNOFFICIAL
+MAINTAINER := Miraclev1
+
+# Gapps
+USE_GAPPS := true
+TARGET_GAPPS_ARCH := arm
+IS_PHONE := true
+
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Infinix/X657C-GL/Infinix-X657C:10/QP1A.190711.020/GH-GL-220821V327:user/release-keys
-
-
