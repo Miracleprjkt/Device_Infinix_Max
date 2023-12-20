@@ -16,7 +16,7 @@
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
-TARGET_SCREEN_HEIGHT := 1600
+TARGET_SCREEN_HEIGHT := 1080
 
 # Inherit from merlin device makefile
 $(call inherit-product, device/infinix/X657C/device.mk)
